@@ -1,0 +1,30 @@
+#preloader {
+    background: #FFF;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1031;
+}
+
+#back-to-top {
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1030;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-color .1s linear;
+    -moz-transition: background-color .1s linear;
+    -webkit-transition: background-color .1s linear;
+    -o-transition: background-color .1s linear;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: #FFF 3px solid;
+}
